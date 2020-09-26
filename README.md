@@ -32,6 +32,8 @@ Você pode contruir enviando melhorias para a interface, para tornar os slides m
 
 Nas [issues](https://github.com/gdgjf/apresentacao/issues), você vê demandas já existentes que podem ser feitas.
 
-Dê uma lida na [documentação do reveal](https://revealjs.com/) para entender melhor como tudo funciona. Já adianto que 95% do que precisa alterar está no [index.html](index.html).
+Dê uma lida na [documentação do reveal](https://revealjs.com/) para entender melhor como tudo funciona. 
+
+Já adianto que 95% do que precisa alterar está no [index.html](index.html). Todo CSS que precisar, altere no tema [gdgjf.scss](/css/theme/source/gdgjf.scss).
 
 As cores e estilos podem seguir o estilo utilizado pelo próprio Google nas páginas em [Community](https://developers.google.com/community).
