@@ -26,15 +26,15 @@ $mainFont: 'Open Sans', 'Noto Sans', 'Source Sans Pro', Helvetica, sans-serif;
 $headingFont: 'Open Sans', 'Noto Sans', 'Source Sans Pro', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: none;
 $headingFontWeight: 600;
 $linkColor: #2a76dd;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
-$heading1Size: 2.5em;
-$heading2Size: 1.6em;
-$heading3Size: 1.3em;
+$heading1Size: 1.5em;
+$heading2Size: 1.4em;
+$heading3Size: 1.1em;
 $heading4Size: 1.0em;
 
 // Change text colors against dark slide backgrounds
@@ -43,6 +43,10 @@ $heading4Size: 1.0em;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.simple-text{
+  font-size: 70%;
+}
 
 small {
   color: silver;
