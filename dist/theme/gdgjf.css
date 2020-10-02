@@ -400,6 +400,15 @@ section.has-dark-background h6 {
   margin: 0;
 }
 
+.background-image-text {
+  font-size: 16px;
+  background-color: #00000050;
+  width: 200px;
+  color: #FFF;
+  padding: 8px;
+  margin: auto;
+}
+
 small {
   color: silver;
   font-weight: lighter;
