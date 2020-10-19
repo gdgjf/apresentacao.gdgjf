@@ -48,6 +48,10 @@ $heading4Size: 1.0em;
   color: gray !important;
 }
 
+.silver {
+  color: silver !important;
+}
+
 .simple-text{
   font-size: 70%;
 }
@@ -57,7 +61,7 @@ $heading4Size: 1.0em;
 }
 
 .very-very-simple-text {
-  font-size: 30%;
+  font-size: 50%;
 }
 
 .organizadores-container {
@@ -103,8 +107,8 @@ $heading4Size: 1.0em;
 }
 
 small {
-  color: silver;
-  font-weight: lighter;
+  color: gray;
+  font-weight: 100;
 }
 
 ul li {
