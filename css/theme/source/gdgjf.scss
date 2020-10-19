@@ -33,8 +33,8 @@ $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
 $heading1Size: 1.5em;
-$heading2Size: 1.4em;
-$heading3Size: 1.1em;
+$heading2Size: 1.2em;
+$heading3Size: 1.0em;
 $heading4Size: 1.0em;
 
 // Change text colors against dark slide backgrounds
@@ -44,8 +44,16 @@ $heading4Size: 1.0em;
 @import "../template/theme";
 // ---------------------------------------------
 
+.gray {
+  color: gray !important;
+}
+
 .simple-text{
   font-size: 70%;
+}
+
+.very-simple-text {
+  font-size: 60%;
 }
 
 .very-very-simple-text {
@@ -97,4 +105,17 @@ $heading4Size: 1.0em;
 small {
   color: silver;
   font-weight: lighter;
+}
+
+ul li {
+  line-height: 1.7em;
+}
+
+.extra-margin {
+  margin: 40px !important;
+}
+
+html.img-right div.slide-background.present {
+  background-position: right;
+  opacity: 0.5;
 }

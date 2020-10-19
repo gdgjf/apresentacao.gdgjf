@@ -27,8 +27,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --heading-font-weight: 600;
   --heading1-text-shadow: none;
   --heading1-size: 1.5em;
-  --heading2-size: 1.4em;
-  --heading3-size: 1.1em;
+  --heading2-size: 1.2em;
+  --heading3-size: 1em;
   --heading4-size: 1em;
   --code-font: monospace;
   --link-color: #2a76dd;
@@ -84,10 +84,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-size: 1.5em; }
 
 .reveal h2 {
-  font-size: 1.4em; }
+  font-size: 1.2em; }
 
 .reveal h3 {
-  font-size: 1.1em; }
+  font-size: 1em; }
 
 .reveal h4 {
   font-size: 1em; }
@@ -294,8 +294,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   .backgrounds {
     background-color: #fff; } }
 
+.gray {
+  color: gray !important; }
+
 .simple-text {
   font-size: 70%; }
+
+.very-simple-text {
+  font-size: 60%; }
 
 .very-very-simple-text {
   font-size: 30%; }
@@ -339,3 +345,13 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 small {
   color: silver;
   font-weight: lighter; }
+
+ul li {
+  line-height: 1.7em; }
+
+.extra-margin {
+  margin: 40px !important; }
+
+html.img-right div.slide-background.present {
+  background-position: right;
+  opacity: 0.5; }
